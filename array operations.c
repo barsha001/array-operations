@@ -50,7 +50,7 @@ int main()
 	printf("enter the size of array you want\n");
 	scanf("%d",&size);
 	int n;
-	int *arr=(int*)malloc(5*sizeof(int));
+	int *arr=(int*)malloc(size*sizeof(int));
 	while(n!=5)
 	{
 		printf("\nenter 1 to insert elements in array\n");
